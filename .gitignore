@@ -1,0 +1,51 @@
+# ==== ENTORNOS VIRTUALES ====
+env/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+
+# ==== PYTHON CACHE ====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ==== LIBRERÍAS PESADAS (NO SUBIR) ====
+*.dll
+*.so
+*.dylib
+*.pyd
+
+# ==== ARCHIVOS DE MODELOS DE IA ====
+*.hdf5
+*.tflite
+*.tflite.zip
+*.onnx
+*.pb
+*.pt
+*.pth
+
+# ==== ARCHIVOS DE DATOS GRANDES ====
+*.xlsx
+*.zip
+*.tar
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.png
+
+# ==== CONFIG CACHES ====
+*.log
+*.tmp
+
+# ==== IDEs Y EDITORES ====
+.vscode/
+.idea/
+*.iml
+
+# ==== ENTORNOS / CONFIG ADICIONAL ====
+dist/
+build/
